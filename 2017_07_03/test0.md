@@ -8,8 +8,12 @@
     命令不是很熟悉，不过不要紧，网站教程上面讲解的很清楚。今天就只使用了下面几个。   
     分别是： git config --global user.name "";
             git config --global user.email "";
-            git add readme.txt;git commit -m "";
+            git add readme.txt;
+            git commit -m "";
             git status;git diff readme.txt;
+            ssh-keygen -t rsa -C "";
+            git remote my_exc git@github.com:mycount/my_exc;
+            git push -u my_exc master;
 ###markdown使用
     其实很早就使用markdown，但是一直没坚持下来，今天就先写写标题，至于其他的乱七八糟的功能，用到再说吧。
 ###感想
