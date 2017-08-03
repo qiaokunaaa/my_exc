@@ -1,4 +1,4 @@
-require.config({
+﻿require.config({
 	baseUrl:"./js",
 	paths:{
 		"jquery":"jquery-3.2.0.min",
@@ -40,7 +40,7 @@ require(['jquery','bootstrap',"angular"],function($,Bootstra,angular){
 	});
 	var app = angular.module("myApp",[]);
 	app.controller("myCtrl",function($scope){
-		$scope.name = "乔坤";
+		$scope.name = "呵呵";
 	});
 
 
