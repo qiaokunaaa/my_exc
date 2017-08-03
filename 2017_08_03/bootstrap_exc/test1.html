@@ -1,0 +1,74 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="utf-8"> 
+    <title>使用Bootstrap 版本 2.0 固定布局的实例</title> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet"> 
+    <script type="text/javascript" src="js/jquery-3.2.0.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script> 
+    <style type="text/css">
+        html,body{
+            width: 100%;
+            height: 100%;
+            margin:0;
+            padding: 0;
+        }
+        body{
+            padding-top: 50px;
+        }
+        div.navbar-header img{
+            width: 67px;
+            height: 50px;
+        }
+        div.col-md-12{
+            
+        }
+        div.col-md-2{
+            background-color: #abcedf;
+            min-height: 700px;
+        }
+        div.col-md-10{
+            background-color: #65763d;
+            min-height: 700px;
+        }
+    </style>
+</head> 
+
+<body> 
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                                <img src="images/logo.jpg"/>
+                        </div>
+                        <div>
+                            <ul class="nav  navbar-nav">
+                                <li class="lin-width"><a href="#" id="a0">练习空间</a></li>
+                                <li class="lin-width"><a href="#" id="a1">知识链接</a></li>
+                                <li class="lin-width"><a href="#" id="a2">个人信息</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2">
+                asdfasdfadfasdf  2
+
+            </div>
+            <div class="col-md-10">
+                asdfasdfadfasdf  8
+                <br/>
+
+                asdfasdfadfasdf  8asdfasdfadfasdf  8
+
+            </div>
+        </div>
+    </div>
+    
+</body> 
+</html>
