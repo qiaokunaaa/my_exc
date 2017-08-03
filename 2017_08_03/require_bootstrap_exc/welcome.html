@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>折腾</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/jquery-3.2.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<title>Document</title>
+	<style type="text/css">
+		html,body{
+			width: 100%;
+			height: 100%;
+			/*background-color: #141d25;*/
+			background-color: #011617;
+			
+		}
+		div.text{
+			width: 100%;
+			height: 100%;
+		}
+	</style>
+</head>
+<body class="container">
+    <div id="text">
+    	
+    </div>
+    <script type="text/javascript">
+    	function t0_hide(){
+    		$("#t0").fadeOut(2000);
+    		setTimeout("jump_index()",2000);
+
+    	}
+    	function jump_index(){
+    		window.location.href = "index.html";
+    	}
+    	$(document).ready(function(){
+    		var t0 = $("<div id='t0' style='margin:auto;position:absolute;top:0;left:0;right:0;bottom:0;font-size:350px;color:#986626;width:800px;height:500px;text-align:center;'>折腾</div>");
+    		//#986626
+    		//d842a2
+    		$("#text").append(t0);
+    		setTimeout("t0_hide()",1500);
+    	});
+    </script>
+</body>
+</html>
